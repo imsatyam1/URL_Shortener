@@ -1,0 +1,193 @@
+body{
+    background-color: #999;
+}
+h1,h2{
+    text-align: center;
+}
+/*Clearing Floats*/
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}    
+/* Form wrapper styling */
+
+.urlBox {
+    width: 450px;
+    margin: 50px auto 50px auto;
+    border-radius: 40px;
+  background: transparent;
+    box-shadow: 0 4px 20px -2px #e9e9e9;
+}
+
+/* Form text input */
+
+.urlBox input {
+  padding-left: 20px;
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;   
+    font: bold 13px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #fff;
+    border-radius: 40px;
+    border-top-style: none;
+}
+
+.urlBox input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+
+.urlBox input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+  padding-left: 20px;
+}
+
+.urlBox input:-moz-placeholder {
+    
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.urlBox input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+  border-style: none;
+}   
+
+/* Form submit button */
+.urlBox button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #198cff;
+    border-radius: 40px;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}    
+
+.urlBox button:active,
+.urlBox button:focus{  
+    background: #198cff;
+    outline: 0;  
+}
+
+.urlBox button:focus:before,
+.urlBox button:active:before{
+        border-right-color: #c42f2f;
+}     
+
+.urlBox button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}   
+
+/* ================================================================================= */
+
+
+/* Form wrapper styling */
+
+.shorturlBox {
+    width: 450px;
+    margin: 50px auto 50px auto;
+    border-radius: 40px;
+  background: transparent;
+    box-shadow: 0 4px 20px -2px #e9e9e9;
+}
+
+/* Form text input */
+
+.shorturlBox input {
+  padding-left: 20px;
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;   
+    font: bold 13px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #fff;
+    border-radius: 40px;
+    border-top-style: none;
+}
+
+.shorturlBox input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+
+.shorturlBox input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+  padding-left: 20px;
+}
+
+.shorturlBox input:-moz-placeholder {
+    
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.shorturlBox input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+  border-style: none;
+}   
+
+/* Form submit button */
+.shorturlBox button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #198cff;
+    border-radius: 40px;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}    
+
+.shorturlBox button:active,
+.shorturlBox button:focus{  
+    background: #198cff;
+    outline: 0;  
+}
+
+.shorturlBox button:focus:before,
+.shorturlBox button:active:before{
+        border-right-color: #c42f2f;
+}     
+
+.urlBox button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}   
